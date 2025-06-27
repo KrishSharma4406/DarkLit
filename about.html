@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | DarkLit</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <style>
+    
+
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: rgb(1, 1, 27);
+      color: white;
+    }
+
+/* === Header === */
+
+
+header h1 {
+    font-family:cursive;
+    float: left;
+    color:rgb(43, 42, 42);
+    background: linear-gradient(90deg, #00ffff, #007BFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* === Navigation === */
+ h1 {
+    font-family:cursive;
+    float: left;
+    color:rgb(43, 42, 42);
+    background: linear-gradient(90deg, #00ffff, #007BFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .hm{
+      color: #007BFF;
+    }
+
+    nav {
+      background-color: rgb(1, 1, 27);
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      float: right;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav a:active {
+  background-color: #007BFF;
+  color: blue;
+  border-radius: 5px;
+}
+
+    nav ul li {
+      margin: 5px;
+    }
+
+    nav ul li a {
+      padding: 7px 14px;
+      border-radius: 5px;
+      background-color: rgb(1, 1, 27);
+      border: 1px solid rgb(1, 1, 27);
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #373737;
+      color: rgb(200, 200, 252);
+    }
+
+/* === Main Content === */
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+}
+
+.why{
+  margin-top: 40vh;
+}
+
+main h2 {
+  color: #00ffff;
+  margin-bottom: 10px;
+  border-left: 4px solid #00ffff;
+  padding-left: 10px;
+  margin-top: 20vh;
+  color: #0073ff;
+}
+
+main p,
+main li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* === Back Button === */
+.back-btn {
+  background: #00ffff20;
+  color: #0080ff;
+  padding: 10px 20px;
+  border: 1px solid #00bfff2a;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #008cffa4;
+  opacity: 0.9;
+}
+
+/* === Footer === */
+footer {
+      background-color: rgb(1, 1, 27);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .footer i {
+      margin: 5px;
+      font-size: 1.5em;
+      border: 1px solid white;
+      padding: 5px;
+      color: black;
+      background-color: white;
+      border-radius: 50%;
+    }
+
+  </style>
+  <header>
+    <h1>DarkLit</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" style="color: blue;">About</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about-details">
+      <h2 class="why" style="margin-top: 15vh;
+  color: #0073ff;">Why DarkLit?</h2>
+      <p>
+        <strong>DarkLit</strong> is more than just a dark-themed website. It's a design concept that emphasizes minimalism, usability, and clean UI/UX without relying on JavaScript.
+      </p>
+      <p>
+        It provides a foundation for students and designers to understand how dark mode interfaces can enhance user experience—especially in low-light environments.
+      </p>
+    </section>
+
+    <section id="about-goals">
+      <h2 style="color: #0073ff;">Project Goals</h2>
+      <ul>
+        <li>Encourage accessibility-first design using just HTML and CSS</li>
+        <li>Showcase modern visual effects like glowing elements and smooth transitions</li>
+        <li>Provide a clean, responsive layout using Flexbox and Grid</li>
+        <li>Enable easy customization for personal and professional usage</li>
+      </ul>
+    </section>
+
+    <section id="inspiration">
+      <h2 style="color: #0073ff;">Inspiration</h2>
+      <p>
+        Dark mode has become a standard in modern web and app interfaces. With increasing awareness of eye strain and battery consumption, <strong>DarkLit</strong> is inspired by these needs and offers a fully functional demo you can extend and improve.
+      </p>
+    </section>
+
+    <section id="back">
+      <a href="index.html"><button class="back-btn">← Back to Home</button></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <a href="mailto:krishsharma4406@gmail.com"><i class="bi bi-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/krish-kumar-sharma-77a23231b" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/KrishSharma4406/KrishSharma4406" target="_blank"><i class="bi bi-github"></i></a>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
