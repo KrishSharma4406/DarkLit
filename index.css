@@ -1,0 +1,136 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: rgb(1, 1, 27);
+      color: white;
+    }
+
+    h1 {
+    font-family:cursive;
+    float: left;
+    color:rgb(43, 42, 42);
+    background: linear-gradient(90deg, #00ffff, #007BFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .hm{
+      color: #007BFF;
+    }
+
+    nav {
+      background-color: rgb(1, 1, 27);
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      float: right;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav a:active {
+  background-color: #007BFF;
+  color: blue;
+  border-radius: 5px;
+}
+
+    nav ul li {
+      margin: 5px;
+    }
+
+    nav ul li a {
+      padding: 7px 14px;
+      border-radius: 5px;
+      background-color: rgb(1, 1, 27);
+      border: 1px solid rgb(1, 1, 27);
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #373737;
+      color: rgb(200, 200, 252);
+    }
+
+    #about{
+      background-color: rgb(40, 40, 56);
+      border: 2 px solid black;
+      border-radius: 10px;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    #home {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    #home p {
+      font-size: 5em;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: underline;
+      background: linear-gradient(to right, red, blue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animate 2s infinite ease-in-out;
+    }
+
+    .open {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+
+    @keyframes animate {
+      0%, 100%{
+        transform: translateY(0);
+     }
+
+      50% {
+        transform: translateY(-30px);
+    }
+    }
+
+    .btn {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    button {
+      border: none;
+      border-radius: 5px;
+      padding: 12px;
+      background-color: rgb(0, 0, 255);
+    }
+
+    button:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+
+    button a{
+      color: white;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: rgb(1, 1, 27);
+      text-align: center;
+      padding: 20px;
+      margin-top: 10vh;
+    }
+
+    .footer i {
+      margin: 5px;
+      font-size: 1.5em;
+      border: 1px solid white;
+      padding: 5px;
+      color: black;
+      background-color: white;
+      border-radius: 50%;
+    }
